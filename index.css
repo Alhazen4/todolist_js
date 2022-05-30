@@ -152,16 +152,16 @@ input[type="checkbox"]:checked:after
 {
     width: 30px;
     height: 30px;
-    font-size: 0px;
+    font-size: 30px;
     color: black;
     background-color: transparent;
     border: 1px solid whitesmoke;
     border-radius: 5px;
-    content: "X";
     font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-
 
 .btn_x:hover
 {

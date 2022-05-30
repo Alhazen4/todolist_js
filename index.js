@@ -20,18 +20,16 @@ function addList() {
     span.setAttribute("class", "span");
 
     const x = document.createTextNode("\u00D7");
-    const btn_rmv = document.createElement("button");
     
-    btn_rmv.appendChild(x);
-    btn_rmv.setAttribute("class", "btn_x");
-    btn_rmv.setAttribute("id", "btn" + num);
-    btn_rmv.setAttribute("onclick", "rmv_func(" + num + ")");
+    span.appendChild(x);
+    span.setAttribute("class", "btn_x");
+    span.setAttribute("id", "btn" + num);
+    span.setAttribute("onclick", "rmv_func(" + num + ")");
 
     li.appendChild(ck);
     li.appendChild(lb);
 
     li.appendChild(span);
-    span.appendChild(btn_rmv);
     ul.appendChild(li);
     num++;
 }
