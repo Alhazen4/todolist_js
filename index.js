@@ -17,20 +17,15 @@ function addList() {
     
     const li = document.createElement("li");
     const span = document.createElement("span");
-    const label = document.createElement("label");
     span.setAttribute("class", "span");
-    span.appendChild("label");
 
     const x = document.createTextNode("\u00D7");
     const btn_rmv = document.createElement("button");
-
+    
     btn_rmv.appendChild(x);
     btn_rmv.setAttribute("class", "btn_x");
     btn_rmv.setAttribute("id", "btn" + num);
     btn_rmv.setAttribute("onclick", "rmv_func(" + num + ")");
-    
-    label.appendChild("button");
-
 
     li.appendChild(ck);
     li.appendChild(lb);
