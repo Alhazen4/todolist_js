@@ -2,7 +2,7 @@
 Simple To-Do-List Web App with JavaScript
 
 NOTE:
-This is a static To-Do-List Web App.
+This is a static To-Do-List Web App. So if you refresh the web, all of the to-do-list you inputted before will be lost.\
 I have created the database connection to save every activity we input, it saved in the database but I become confused to how show the activities stored in the database to the website through JavaScript.
 
 Following some tutorials:
