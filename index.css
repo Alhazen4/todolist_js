@@ -1,7 +1,7 @@
 @font-face 
 {
     font-family: 'LetterForLearners';
-    src: url('/src/Letters\ for\ Learners.ttf');
+    src: url('/src/Letters\ for\ Learners.ttf') format('truetype');
 }
 
 *
